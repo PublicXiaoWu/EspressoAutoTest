@@ -7,6 +7,16 @@
 
     <TextView
         android:id="@+id/tv_espresso"
+        android:background="#c0da99"
+        android:gravity="center"
+        android:layout_margin="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:text="espresso"/>
+        android:layout_height="118dp" android:text="espresso"/>
+    <TextView
+        android:id="@+id/tv_nice"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_margin="20dp"
+        android:background="#99dabc"
+        android:gravity="center" android:text="nice"/>
 </LinearLayout>
